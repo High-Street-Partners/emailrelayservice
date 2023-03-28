@@ -28,6 +28,7 @@ namespace EmailSender.Controllers
             using (var smtpClient = new SmtpClient(host, port))
             {
                 smtpClient.Send(mailMessage);
+
             }
         }
     }
